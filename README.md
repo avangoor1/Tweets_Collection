@@ -81,7 +81,15 @@ Below are a few sample tweets and how they might be labeled:
    - `1` = Merit
    - `0` = Luck
 
-2. Train a second classifier using this labeled data.
+### Sample Tweets with Labels
+
+| Tweet ID           | User ID            | Timestamp                | Tweet Text                                                                                                                                                                  | Label |
+|--------------------|--------------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
+| 1878230198178476037 | 865644775873028098 | 2025-01-11T23:59:09.000Z | """RT @kamaufranklin: Since I know his moma I'm gonna say great parenting. Free Palestine""" | 0 |
+| 1878230357427765394 | 862786245658804224 | 2025-01-11T23:59:47.000Z | """And that is why #DEI is destroying America! #MSNBC @jemelehill @ElieNYC @UCLA @rickygervais @tomhanks @kevinolearytv @mrdannyglover @StephenAtHome https://t.co/vDhus9AqBL""" | 1 |
+
+
+2. Train a second classifier using this labeled data. This can be completed similar to the process followed while completing the previous step.
 
 3. Run the remaining 90% of relevant tweets through the trained model to label them as either **merit** or **luck**.
 
@@ -91,8 +99,3 @@ Below are a few sample tweets and how they might be labeled:
 You now have a **high-quality, labeled dataset** of tweets relevant to success in the workplace, classified by perceived cause (merit or luck). This dataset can be used to train your neural network or for other analytical purposes.
 
 ---
-
-## Suggestions for Improvement
-- Include example inputs/outputs for your scripts.
-- Add usage instructions for each Python file (`getTweetsByHashtag.py`, etc.).
-- Include error handling tips or common issues (e.g., Twitter API limits, authentication setup).
