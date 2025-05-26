@@ -31,12 +31,14 @@ with open('', mode='r', newline='', encoding='utf-8') as file: # add the regress
     csv_reader = csv.reader(file)
     
     # Loop through each line in the CSV file
+    # Right now, it is reading tweets in the format of tweet id, author id, date, tweet content, and relevancy value. If your tweet only contains
+    # tweet id, tweet content, and relevancy value, then make sure to remove the fields you are not using.
     for row in csv_reader:
-        tweet_id = int(row[0]) 
-        author_id = int(row[1])
-        date_published = row[2]
-        text = row[3] 
-        relevancy = int(row[4])
+        tweet_id = int(row[0]) # tweet id
+        author_id = int(row[1]) # author id
+        date_published = row[2] # date published
+        text = row[3] # tweet content
+        relevancy = int(row[4]) # relevancy of either 0 or 1
         embedding = nlp_lg(text)
         object = EmbeddedTweet(tweet_id, text, embedding.vector, relevancy) 
         # print(object.print())

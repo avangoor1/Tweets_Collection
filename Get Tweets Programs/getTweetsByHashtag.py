@@ -5,7 +5,7 @@ import csv
 import os
 from datetime import datetime, timedelta
 
-BEARER_TOKEN = '' # add teh Bearer token to access the X API 
+BEARER_TOKEN = '' # add the Bearer token to access the X API 
 
 # Define headers for authorization
 HEADERS = {
