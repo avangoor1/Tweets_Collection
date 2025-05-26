@@ -96,6 +96,6 @@ Below are a few sample tweets and how they might be labeled:
 ---
 
 ## Final Output
-You now have a **high-quality, labeled dataset** of tweets relevant to success in the workplace, classified by perceived cause (merit or luck). This dataset can be used to train your neural network or for other analytical purposes.
+You now have a **high-quality, labeled dataset** of tweets relevant to success in the workplace, classified by perceived cause (merit or luck). This dataset can be used to train your neural network.
 
 ---
