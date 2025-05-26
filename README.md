@@ -21,6 +21,6 @@ Step 4: Use the labeled tweets to train a linear regression model capable of cla
 
 Step 5: Now, you need to label the relevant tweets as either merit or luck. Therefore, you need to create another filter that would do this. Label 10% of the tweets you received after running Step 4 as either 1 for merit and 0 for luck.
 
-Step 6: Run the rest of the 90% of tweets through the filter in Step 5 to label the tweets as either merit or luck. Now, you have high quality tweets that can be trained on. Set this set of trained tweets aside as you use them to tarin your neural network.
+Step 6: Run the rest of the 90% of tweets through the filter in Step 5 to label the tweets as either merit or luck. Now, you have high quality tweets that can be trained on. Set this set of trained tweets aside as you use them to train your neural network.
 
 
