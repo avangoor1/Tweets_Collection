@@ -13,7 +13,7 @@ Step 2: Under the "Get Tweets Programs" folder, you can use either the 'getTweet
     #query = "(reaganomics OR tax the rich OR tax cut OR trickle down) OR (lobbying OR lobbyist) OR (outsourced labor OR at will employment)"
     #query = "trans rights OR my body my choice OR free palestine OR dialectic OR dialectical materialism OR workers rights OR oligarch OR oligarchy"
     #query = "drain the swamp OR deep state OR government spending OR corrupt democrat OR RINO OR Obamacare OR border crisis"
-    query = "(hustle OR grindset) OR (portfolio OR shares OR self-made) OR (affirmative action OR DEI OR radical OR Soros)"
+    #query = "(hustle OR grindset) OR (portfolio OR shares OR self-made) OR (affirmative action OR DEI OR radical OR Soros)"
 
 Step 3: Not every tweet you get the running the programs above will be relevant to the topic of success in the workplace setting. Therefore, you must run the tweets through two filters. First, you must filter the tweets through the relevancy filter. Label 10% of the tweets you received after running Step 2 as either 1 for relevant and 0 for irrelevant.
 
